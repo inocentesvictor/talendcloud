@@ -1,0 +1,73 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "No description",
+    "version" : "1.0.0",
+    "title" : "CSIT_POC",
+    "contact" : { }
+  },
+  "host" : "localhost:1234",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/api/Orders/{id}" : {
+      "get" : {
+        "summary" : "Get Orders",
+        "description" : "For Getting Orders",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "id",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    },
+    "/api/Orders/create" : {
+      "post" : {
+        "summary" : "Post Orders",
+        "consumes" : [ "application/xml" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "required" : true,
+          "schema" : {
+            "type" : "object"
+          },
+          "x-examples" : {
+            "application/xml" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ORDER>\n   <NOTES>Order processing</NOTES>\n   <CUSTOMER>\n      <ID>1</ID>\n   </CUSTOMER>\n   <ORDERLINES>\n      <ORDERLINE>\n         <ID>0</ID>\n         <PRODUCT>\n            <NAME>Samsung Galaxy S10</NAME>\n            <DESCRIPTION>Samsung Galaxy S10</DESCRIPTION>\n            <PRICE>1250</PRICE>\n            <COUNTRYIMPORTED>\n               <ID>1</ID>\n            </COUNTRYIMPORTED>\n            <MANUFACTURER>\n               <NAME>Samsung</NAME>\n               <COUNTRYHQ>\n                  <ID>1</ID>\n               </COUNTRYHQ>\n            </MANUFACTURER>\n         </PRODUCT>\n         <QTY>1</QTY>\n         <PRICE>1250</PRICE>\n      </ORDERLINE>\n   </ORDERLINES>\n</ORDER>"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/api/RelatedPersons/{pid}" : {
+      "get" : {
+        "summary" : "List Person",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "pid",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    }
+  }
+}

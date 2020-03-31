@@ -11,6 +11,14 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
+    <module>jobs/routes/Demo_Routes/camel_tcp_sender_0.1</module>
+    <module>jobs/routes/restapisamplecodes_0.1</module>
+    <module>jobs/routes/Snowflake/Demo/snowflake_api_query_0.1</module>
+    <module>jobs/routes/Demo_Routes/api_service_mysql_0.1</module>
+    <module>jobs/routes/Demo_Routes/camel_rest_sender_1.0</module>
+    <module>jobs/routes/CSIT_POC/route_demo_read_0.1</module>
+    <module>jobs/routes/Demo_Routes/camel_rest_listener_1.0</module>
+    <module>jobs/routes/Demo_Routes/camel_tcp_receiver_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
