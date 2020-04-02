@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
-  <dataquality.rules:WhereRule xmi:id="_nvsBUW_CEeqxmZ9FXrzoMg" name="MECO_LOCATION_NAME" supplierDependency="_uanBM2_CEeqxmZ9FXrzoMg" criticalityLevel="1" whereExpression="&quot;Location_name&quot; is not null">
+  <dataquality.rules:WhereRule xmi:id="_nvsBUW_CEeqxmZ9FXrzoMg" name="MECO_LOCATION_NAME" supplierDependency="_uanBM2_CEeqxmZ9FXrzoMg" criticalityLevel="1" whereExpression="&quot;LOCATION_ID&quot; is not null">
     <taggedValue xmi:id="_nvsBUm_CEeqxmZ9FXrzoMg" tag="Status" value="development"/>
-    <taggedValue xmi:id="_nvsBU2_CEeqxmZ9FXrzoMg" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_nvsBU2_CEeqxmZ9FXrzoMg" tag="Author" value="vinocentes@vin.talend.com"/>
     <taggedValue xmi:id="_nvsBVG_CEeqxmZ9FXrzoMg" tag="Purpose" value=""/>
     <taggedValue xmi:id="_nvsBVW_CEeqxmZ9FXrzoMg" tag="Description" value=""/>
     <taggedValue xmi:id="_nvsBVm_CEeqxmZ9FXrzoMg" tag="Version" value="0.1"/>

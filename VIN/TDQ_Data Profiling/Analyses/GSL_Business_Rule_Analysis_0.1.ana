@@ -27,6 +27,7 @@
         </builtInIndicatorDefinition>
       </indicators>
       <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_W9NsM3SwEeqfKN4EtrYNdg" count="914" computed="true" userCount="0">
+        <parameters xmi:id="_m16qQHSwEeqfKN4EtrYNdg"/>
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/PostgreSQL_0.1.item#_yQW1o2_AEeqxmZ9FXrzoMg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/MECO_LOCATION_NAME_0.1.rules#_nvsBUW_CEeqxmZ9FXrzoMg"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_XUgK0XSwEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &quot;public&quot;.&quot;fact_gsl_incident_location&quot;   WHERE (&quot;Location_name&quot; is not null)" language="PostgreSQL"/>
