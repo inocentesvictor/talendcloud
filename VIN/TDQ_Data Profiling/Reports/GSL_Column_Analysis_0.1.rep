@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_O6SNAHSvEeqfKN4EtrYNdg" name="GSL_Column_Analysis" creationDate="2020-04-02T14:27:35.685+0800">
+  <clientDependency href="../Analyses/GSL_Column_Analysis_0.1.ana#_O6S0EHSvEeqfKN4EtrYNdg"/>
+  <taggedValue xmi:id="_O6SNAXSvEeqfKN4EtrYNdg" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_O6SNAnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_O6SNA3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_O6SNBHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_O6SNBXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_O6SNBnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_O6SNB3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_O6SNCHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_O6SNCXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_O6SNCnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:ncubNvD0oUH/lHIt+gnuFbWNkTsKQYs2PNozxg=="/>
+  <taggedValue xmi:id="_O6SNC3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_O6SNDHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_O6SNDXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_O6SNDnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_O6SND3SvEeqfKN4EtrYNdg" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_O6SNEHSvEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+  <analysisMap xmi:id="_O6SNEXSvEeqfKN4EtrYNdg" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/GSL_Column_Analysis_0.1.ana#_sI5RsXSuEeqfKN4EtrYNdg"/>
+  </analysisMap>
+</dataquality.reports:TdReport>

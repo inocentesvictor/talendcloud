@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_sI5RsXSuEeqfKN4EtrYNdg" name="GSL_Column_Analysis" creationDate="2020-04-02T14:23:42.346+0800" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_sI5RsXSuEeqfKN4EtrYNdg" name="GSL_Column_Analysis" supplierDependency="_O6S0EHSvEeqfKN4EtrYNdg" creationDate="2020-04-02T14:23:42.346+0800" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/GSL_Sample_Data_0.1.item#_6qkyfXSuEeqfKN4EtrYNdg"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/Meralco_INC_ID_Rule_0.1.pattern#_umh-wG89EeqiWbeLnZtbRA"/>
     <taggedValue xmi:id="_sI5RsnSuEeqfKN4EtrYNdg" tag="Status" value="development"/>
@@ -268,4 +268,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_O6S0EHSvEeqfKN4EtrYNdg" kind="Usage" supplier="_sI5RsXSuEeqfKN4EtrYNdg">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/GSL_Column_Analysis_0.1.rep#_O6SNAHSvEeqfKN4EtrYNdg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
