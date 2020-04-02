@@ -8,9 +8,7 @@
     <taggedValue xmi:id="_9-Wa5XSvEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_W9NsMXSwEeqfKN4EtrYNdg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
     <taggedValue xmi:id="_W9NsNHSwEeqfKN4EtrYNdg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
-    <context xmi:id="_9-Wa5nSvEeqfKN4EtrYNdg">
-      <connection href="../../metadata/connections/Customer_PostgreSQL_0.1.item#_92ap4HSOEeq9Iq8oprWs1A"/>
-    </context>
+    <context xmi:id="_9-Wa5nSvEeqfKN4EtrYNdg"/>
     <results xmi:id="_9-Wa53SvEeqfKN4EtrYNdg">
       <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg" executionDate="2020-04-02T14:38:40.037+0800" executionDuration="171" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
     </results>
