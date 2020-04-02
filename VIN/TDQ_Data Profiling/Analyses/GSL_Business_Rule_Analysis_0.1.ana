@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_9-Wa4HSvEeqfKN4EtrYNdg" name="GSL_Business_Rule_Analysis" creationDate="2020-04-02T14:32:51.533+0800">
+  <taggedValue xmi:id="_9-Wa4XSvEeqfKN4EtrYNdg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_9-Wa4nSvEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+  <taggedValue xmi:id="_9-Wa43SvEeqfKN4EtrYNdg" tag="Purpose"/>
+  <taggedValue xmi:id="_9-Wa5HSvEeqfKN4EtrYNdg" tag="Description"/>
+  <taggedValue xmi:id="_9-Wa5XSvEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
+  <context xmi:id="_9-Wa5nSvEeqfKN4EtrYNdg"/>
+  <results xmi:id="_9-Wa53SvEeqfKN4EtrYNdg">
+    <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg"/>
+  </results>
+  <parameters xmi:id="_9-Wa6XSvEeqfKN4EtrYNdg" analysisType="Table Analysis"/>
+</dataquality.analysis:Analysis>
