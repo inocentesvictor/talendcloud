@@ -15,7 +15,7 @@
       <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/PostgreSQL_0.1.item#_yQW1o2_AEeqxmZ9FXrzoMg"/>
     </context>
     <results xmi:id="_9-Wa53SvEeqfKN4EtrYNdg">
-      <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg" executionDate="2020-04-02T14:35:41.628+0800" executionDuration="129" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg" executionDate="2020-04-02T14:37:13.416+0800" executionDuration="128" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_W9NsMnSwEeqfKN4EtrYNdg" count="914" computed="true">
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/PostgreSQL_0.1.item#_yQW1o2_AEeqxmZ9FXrzoMg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
