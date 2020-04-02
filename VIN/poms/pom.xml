@@ -21,6 +21,7 @@
     <module>jobs/routes/Demo_Routes/camel_tcp_receiver_0.1</module>
     <module>jobs/routes/restapisamplecodes_test_0.1</module>
     <module>jobs/routes/test_route_0.1</module>
+    <module>jobs/process/s01_populatecustomertable_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
