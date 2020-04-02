@@ -530,14 +530,6 @@
     "version" : "Latest",
     "type" : "pattern"
   }, {
-    "id" : "_hqaSUG9YEeqmbNKjOrFHIg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_noxicG89EeqiWbeLnZtbRA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -559,10 +551,6 @@
     "type" : "routine"
   }, {
     "id" : "DqStringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
     "version" : "Latest",
     "type" : "routine"
   }, {
@@ -601,6 +589,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "__Ukn8HSkEeqfKN4EtrYNdg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_hqaSUG9YEeqmbNKjOrFHIg - metadata",
     "version" : "Latest",
