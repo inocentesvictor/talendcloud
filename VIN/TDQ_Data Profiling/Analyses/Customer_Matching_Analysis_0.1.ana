@@ -28,9 +28,9 @@
     <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/Cust_File_0.1.item#_EwYiT290EeqtIPl_Ot6iOg"/>
   </context>
   <results xmi:id="_i8daiXSyEeqfKN4EtrYNdg">
-    <resultMetadata xmi:id="_i8dainSyEeqfKN4EtrYNdg"/>
-    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_i8dai3SyEeqfKN4EtrYNdg"/>
-    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_i8dajHSyEeqfKN4EtrYNdg">
+    <resultMetadata xmi:id="_i8dainSyEeqfKN4EtrYNdg" executionDate="2020-04-02T14:52:56.599+0800" executionDuration="77" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_i8dai3SyEeqfKN4EtrYNdg" blockSize2frequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B7870707704000000017372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000427371007E0003000000000000000178"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_i8dajHSyEeqfKN4EtrYNdg" count="66" groupSize2groupFrequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B787070770400000007740001317372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000000000008740001327371007E00040000000000000007740001337371007E00040000000000000002740001357371007E00040000000000000001740001367371007E000400000000000000037400013771007E000C7400013871007E000C78" matchedRecordCount="10" suspectRecordCount="48">
       <builtInMatchRuleDefinition xmi:id="_i8dajXSyEeqfKN4EtrYNdg">
         <matchRules xmi:id="_pRDlEHSyEeqfKN4EtrYNdg" name="Match Rule 3" matchInterval="0.7">
           <matchKeys xmi:id="_stpnwHSyEeqfKN4EtrYNdg" name="FIRST_NAME" column="FIRST_NAME" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
