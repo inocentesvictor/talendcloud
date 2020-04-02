@@ -24,7 +24,7 @@
     <module>jobs/process/s01_populatecustomertable_0.1</module>
     <module>jobs/process/demo_readmultiple_0.1</module>
     <module>jobs/process/demo_write_0.1</module>
-    <module>jobs/process/demo_read_0.1</module>
+    <module>jobs/process/CSIT/demo_read_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
