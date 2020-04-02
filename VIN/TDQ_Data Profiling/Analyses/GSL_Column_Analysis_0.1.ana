@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_sI5RsXSuEeqfKN4EtrYNdg" name="GSL_Column_Analysis" creationDate="2020-04-02T14:23:42.346+0800">
+  <taggedValue xmi:id="_sI5RsnSuEeqfKN4EtrYNdg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_sI5Rs3SuEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+  <taggedValue xmi:id="_sI5RtHSuEeqfKN4EtrYNdg" tag="Purpose"/>
+  <taggedValue xmi:id="_sI5RtXSuEeqfKN4EtrYNdg" tag="Description"/>
+  <taggedValue xmi:id="_sI5RtnSuEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
+  <context xmi:id="_sI5Rt3SuEeqfKN4EtrYNdg"/>
+  <results xmi:id="_sI5RuHSuEeqfKN4EtrYNdg">
+    <resultMetadata xmi:id="_sI5RuXSuEeqfKN4EtrYNdg"/>
+  </results>
+  <parameters xmi:id="_sI5RunSuEeqfKN4EtrYNdg" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
