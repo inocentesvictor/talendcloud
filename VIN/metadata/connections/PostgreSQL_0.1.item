@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="PostgreSQL" DatasourceName="" DbmsId="postgres_id" DriverClass="org.postgresql.Driver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:AlAwe0OqY2/P260CU+BQg1XpfK+6Q3dMaSpdpz4LVrummerq" Port="5432" ProductId="POSTGRESQL" SID="" SQLMode="false" ServerName="localhost" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:postgresql://localhost:5432/?" UiSchema="" Username="postgres" dataPackage="_xXjVEG9iEeqqBJr8Rf94ig" dbVersionString="V9_X" id="_tZHJkG9iEeqqBJr8Rf94ig" label="PostgreSQL" name="PostgreSQL" supplierDependency="_KK4xkG_AEeqxmZ9FXrzoMg" xmi:id="_xUJbwG9iEeqqBJr8Rf94ig">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_xUJbwW9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="package filter" value="" xmi:id="_xVSEMG9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="Status" value="" xmi:id="_xVaAAG9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_xVaAAW9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_xVaAAm9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="Description" value="" xmi:id="_xVaAA29iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="Author" value="" xmi:id="_xVaABG9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="otherParameter" xmi:id="_xVaABW9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="DB ProductName" value="PostgreSQL" xmi:id="_xWTX4G9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="DB ProductVersion" value="11.7" xmi:id="_xWTX4W9iEeqqBJr8Rf94ig"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_xWTX4m9iEeqqBJr8Rf94ig"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="postgres" xmi:id="_xUJbwm9iEeqqBJr8Rf94ig"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_xUJbwG9iEeqqBJr8Rf94ig" name="postgres" xmi:id="_xXjVEG9iEeqqBJr8Rf94ig">
+    <ownedElement name="information_schema" xmi:id="_xXjVEW9iEeqqBJr8Rf94ig" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_0IQycG_AEeqxmZ9FXrzoMg" label="sql_features" name="sql_features" tableType="TABLE" xmi:id="_0IQyd2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_0IQycW_AEeqxmZ9FXrzoMg" label="sql_implementation_info" name="sql_implementation_info" tableType="TABLE" xmi:id="_0IQyeG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_0IQycm_AEeqxmZ9FXrzoMg" label="sql_languages" name="sql_languages" tableType="TABLE" xmi:id="_0IQyeW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_0IQyc2_AEeqxmZ9FXrzoMg" label="sql_packages" name="sql_packages" tableType="TABLE" xmi:id="_0IQyem_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_0IQydG_AEeqxmZ9FXrzoMg" label="sql_parts" name="sql_parts" tableType="TABLE" xmi:id="_0IQye2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_0IQydW_AEeqxmZ9FXrzoMg" label="sql_sizing" name="sql_sizing" tableType="TABLE" xmi:id="_0IQyfG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_0IQydm_AEeqxmZ9FXrzoMg" label="sql_sizing_profiles" name="sql_sizing_profiles" tableType="TABLE" xmi:id="_0IQyfW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+    </ownedElement>
+    <ownedElement name="meco_db" xmi:id="_oMI4_29jEeqqBJr8Rf94ig" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_ojdMwG9jEeqqBJr8Rf94ig" label="dim_city" name="dim_city" tableType="TABLE" xmi:id="_ojdz0G9jEeqqBJr8Rf94ig" xsi:type="relational:TdTable"/>
+    </ownedElement>
+    <ownedElement name="pg_catalog" xmi:id="_xXjVEm9iEeqqBJr8Rf94ig" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_yZRhEG_AEeqxmZ9FXrzoMg" label="pg_aggregate" name="pg_aggregate" tableType="TABLE" xmi:id="_yZSvO2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZRhEW_AEeqxmZ9FXrzoMg" label="pg_am" name="pg_am" tableType="TABLE" xmi:id="_yZSvPG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZRhEm_AEeqxmZ9FXrzoMg" label="pg_amop" name="pg_amop" tableType="TABLE" xmi:id="_yZSvPW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIIG_AEeqxmZ9FXrzoMg" label="pg_amproc" name="pg_amproc" tableType="TABLE" xmi:id="_yZSvPm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIIW_AEeqxmZ9FXrzoMg" label="pg_attrdef" name="pg_attrdef" tableType="TABLE" xmi:id="_yZSvP2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIIm_AEeqxmZ9FXrzoMg" label="pg_attribute" name="pg_attribute" tableType="TABLE" xmi:id="_yZSvQG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSII2_AEeqxmZ9FXrzoMg" label="pg_auth_members" name="pg_auth_members" tableType="TABLE" xmi:id="_yZSvQW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIJG_AEeqxmZ9FXrzoMg" label="pg_authid" name="pg_authid" tableType="TABLE" xmi:id="_yZSvQm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIJW_AEeqxmZ9FXrzoMg" label="pg_cast" name="pg_cast" tableType="TABLE" xmi:id="_yZSvQ2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIJm_AEeqxmZ9FXrzoMg" label="pg_class" name="pg_class" tableType="TABLE" xmi:id="_yZSvRG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIJ2_AEeqxmZ9FXrzoMg" label="pg_collation" name="pg_collation" tableType="TABLE" xmi:id="_yZSvRW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIKG_AEeqxmZ9FXrzoMg" label="pg_constraint" name="pg_constraint" tableType="TABLE" xmi:id="_yZSvRm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIKW_AEeqxmZ9FXrzoMg" label="pg_conversion" name="pg_conversion" tableType="TABLE" xmi:id="_yZSvR2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIKm_AEeqxmZ9FXrzoMg" label="pg_database" name="pg_database" tableType="TABLE" xmi:id="_yZSvSG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIK2_AEeqxmZ9FXrzoMg" label="pg_db_role_setting" name="pg_db_role_setting" tableType="TABLE" xmi:id="_yZSvSW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSILG_AEeqxmZ9FXrzoMg" label="pg_default_acl" name="pg_default_acl" tableType="TABLE" xmi:id="_yZSvSm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSILW_AEeqxmZ9FXrzoMg" label="pg_depend" name="pg_depend" tableType="TABLE" xmi:id="_yZSvS2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSILm_AEeqxmZ9FXrzoMg" label="pg_description" name="pg_description" tableType="TABLE" xmi:id="_yZSvTG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIL2_AEeqxmZ9FXrzoMg" label="pg_enum" name="pg_enum" tableType="TABLE" xmi:id="_yZSvTW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIMG_AEeqxmZ9FXrzoMg" label="pg_event_trigger" name="pg_event_trigger" tableType="TABLE" xmi:id="_yZSvTm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIMW_AEeqxmZ9FXrzoMg" label="pg_extension" name="pg_extension" tableType="TABLE" xmi:id="_yZSvT2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIMm_AEeqxmZ9FXrzoMg" label="pg_foreign_data_wrapper" name="pg_foreign_data_wrapper" tableType="TABLE" xmi:id="_yZSvUG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIM2_AEeqxmZ9FXrzoMg" label="pg_foreign_server" name="pg_foreign_server" tableType="TABLE" xmi:id="_yZSvUW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSING_AEeqxmZ9FXrzoMg" label="pg_foreign_table" name="pg_foreign_table" tableType="TABLE" xmi:id="_yZSvUm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSINW_AEeqxmZ9FXrzoMg" label="pg_index" name="pg_index" tableType="TABLE" xmi:id="_yZSvU2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSINm_AEeqxmZ9FXrzoMg" label="pg_inherits" name="pg_inherits" tableType="TABLE" xmi:id="_yZSvVG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIN2_AEeqxmZ9FXrzoMg" label="pg_init_privs" name="pg_init_privs" tableType="TABLE" xmi:id="_yZSvVW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIOG_AEeqxmZ9FXrzoMg" label="pg_language" name="pg_language" tableType="TABLE" xmi:id="_yZSvVm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIOW_AEeqxmZ9FXrzoMg" label="pg_largeobject" name="pg_largeobject" tableType="TABLE" xmi:id="_yZSvV2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIOm_AEeqxmZ9FXrzoMg" label="pg_largeobject_metadata" name="pg_largeobject_metadata" tableType="TABLE" xmi:id="_yZSvWG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIO2_AEeqxmZ9FXrzoMg" label="pg_namespace" name="pg_namespace" tableType="TABLE" xmi:id="_yZSvWW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIPG_AEeqxmZ9FXrzoMg" label="pg_opclass" name="pg_opclass" tableType="TABLE" xmi:id="_yZSvWm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIPW_AEeqxmZ9FXrzoMg" label="pg_operator" name="pg_operator" tableType="TABLE" xmi:id="_yZSvW2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIPm_AEeqxmZ9FXrzoMg" label="pg_opfamily" name="pg_opfamily" tableType="TABLE" xmi:id="_yZSvXG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIP2_AEeqxmZ9FXrzoMg" label="pg_partitioned_table" name="pg_partitioned_table" tableType="TABLE" xmi:id="_yZSvXW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIQG_AEeqxmZ9FXrzoMg" label="pg_pltemplate" name="pg_pltemplate" tableType="TABLE" xmi:id="_yZSvXm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIQW_AEeqxmZ9FXrzoMg" label="pg_policy" name="pg_policy" tableType="TABLE" xmi:id="_yZSvX2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIQm_AEeqxmZ9FXrzoMg" label="pg_proc" name="pg_proc" tableType="TABLE" xmi:id="_yZSvYG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIQ2_AEeqxmZ9FXrzoMg" label="pg_publication" name="pg_publication" tableType="TABLE" xmi:id="_yZSvYW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIRG_AEeqxmZ9FXrzoMg" label="pg_publication_rel" name="pg_publication_rel" tableType="TABLE" xmi:id="_yZSvYm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIRW_AEeqxmZ9FXrzoMg" label="pg_range" name="pg_range" tableType="TABLE" xmi:id="_yZSvY2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIRm_AEeqxmZ9FXrzoMg" label="pg_replication_origin" name="pg_replication_origin" tableType="TABLE" xmi:id="_yZSvZG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIR2_AEeqxmZ9FXrzoMg" label="pg_rewrite" name="pg_rewrite" tableType="TABLE" xmi:id="_yZSvZW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSISG_AEeqxmZ9FXrzoMg" label="pg_seclabel" name="pg_seclabel" tableType="TABLE" xmi:id="_yZSvZm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSISW_AEeqxmZ9FXrzoMg" label="pg_sequence" name="pg_sequence" tableType="TABLE" xmi:id="_yZSvZ2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSISm_AEeqxmZ9FXrzoMg" label="pg_shdepend" name="pg_shdepend" tableType="TABLE" xmi:id="_yZSvaG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIS2_AEeqxmZ9FXrzoMg" label="pg_shdescription" name="pg_shdescription" tableType="TABLE" xmi:id="_yZSvaW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSITG_AEeqxmZ9FXrzoMg" label="pg_shseclabel" name="pg_shseclabel" tableType="TABLE" xmi:id="_yZSvam_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSITW_AEeqxmZ9FXrzoMg" label="pg_statistic" name="pg_statistic" tableType="TABLE" xmi:id="_yZSva2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSITm_AEeqxmZ9FXrzoMg" label="pg_statistic_ext" name="pg_statistic_ext" tableType="TABLE" xmi:id="_yZSvbG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSIT2_AEeqxmZ9FXrzoMg" label="pg_subscription" name="pg_subscription" tableType="TABLE" xmi:id="_yZSvbW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvMG_AEeqxmZ9FXrzoMg" label="pg_subscription_rel" name="pg_subscription_rel" tableType="TABLE" xmi:id="_yZSvbm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvMW_AEeqxmZ9FXrzoMg" label="pg_tablespace" name="pg_tablespace" tableType="TABLE" xmi:id="_yZSvb2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvMm_AEeqxmZ9FXrzoMg" label="pg_transform" name="pg_transform" tableType="TABLE" xmi:id="_yZSvcG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvM2_AEeqxmZ9FXrzoMg" label="pg_trigger" name="pg_trigger" tableType="TABLE" xmi:id="_yZSvcW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvNG_AEeqxmZ9FXrzoMg" label="pg_ts_config" name="pg_ts_config" tableType="TABLE" xmi:id="_yZSvcm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvNW_AEeqxmZ9FXrzoMg" label="pg_ts_config_map" name="pg_ts_config_map" tableType="TABLE" xmi:id="_yZSvc2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvNm_AEeqxmZ9FXrzoMg" label="pg_ts_dict" name="pg_ts_dict" tableType="TABLE" xmi:id="_yZSvdG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvN2_AEeqxmZ9FXrzoMg" label="pg_ts_parser" name="pg_ts_parser" tableType="TABLE" xmi:id="_yZSvdW_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvOG_AEeqxmZ9FXrzoMg" label="pg_ts_template" name="pg_ts_template" tableType="TABLE" xmi:id="_yZSvdm_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvOW_AEeqxmZ9FXrzoMg" label="pg_type" name="pg_type" tableType="TABLE" xmi:id="_yZSvd2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yZSvOm_AEeqxmZ9FXrzoMg" label="pg_user_mapping" name="pg_user_mapping" tableType="TABLE" xmi:id="_yZSveG_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+    </ownedElement>
+    <ownedElement name="public" xmi:id="_xXjVE29iEeqqBJr8Rf94ig" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_yQW1oG_AEeqxmZ9FXrzoMg" label="dim_city" name="dim_city" tableType="TABLE" xmi:id="_yQW1om_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable"/>
+      <ownedElement id="_yQW1oW_AEeqxmZ9FXrzoMg" label="fact_gsl_incident_location" name="fact_gsl_incident_location" tableType="TABLE" xmi:id="_yQW1o2_AEeqxmZ9FXrzoMg" xsi:type="relational:TdTable">
+        <feature id="SDP_GID_H" label="SDP_GID_H" length="80" name="SDP_GID_H" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNYG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNYW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNYm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNY2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="SIN_H" label="SIN_H" length="80" name="SIN_H" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNZG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNZW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNZm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNZ2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="SECTOR_H" label="SECTOR_H" length="19" name="SECTOR_H" sourceType="INT8" talendType="id_Long" xmi:id="_wyZNaG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNaW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNam_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-5" name="INT8" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNa2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="LOCATION_ID" label="LOCATION_ID" length="7" name="LOCATION_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNbG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNbW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNbm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNb2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="Location_name" label="Location_name" length="2147483647" name="Location_name" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNcG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNcW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNcm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNc2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="Incident_ID" label="Incident_ID" length="15" name="Incident_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNdG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNdW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNdm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNd2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="Interruption_Duration__sec_" label="Interruption_Duration__sec_" length="10" name="Interruption_Duration__sec_" sourceType="INT4" talendType="id_Integer" xmi:id="_wyZNeG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNeW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNem_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="4" name="INT4" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNe2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="Interruption_time" label="Interruption_time" length="2147483647" name="Interruption_time" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNfG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNfW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNfm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNf2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+        <feature id="Restoration_time" label="Restoration_time" length="2147483647" name="Restoration_time" sourceType="VARCHAR" talendType="id_String" xmi:id="_wyZNgG_BEeqxmZ9FXrzoMg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_wyZNgW_BEeqxmZ9FXrzoMg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_wyZNgm_BEeqxmZ9FXrzoMg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="VARCHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_wyZNg2_BEeqxmZ9FXrzoMg"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.objectmodel.core:Dependency kind="Usage" supplier="_xUJbwG9iEeqqBJr8Rf94ig" xmi:id="_KK4xkG_AEeqxmZ9FXrzoMg">
+    <client href="../../TDQ_Data Profiling/Analyses/Meralco_DQ_Profiling/GSL_BR_Analysis_0.1.ana#_tJ4ggG-_EeqxmZ9FXrzoMg" xsi:type="dataquality.analysis:Analysis"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c5ce0c27-74c1-4d64-a068-2cdab4358c0e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0EPUnvpLk7jusHKftJTJDlkUENg2tuMrIrdvENM9cdBp+5pmA8cpAVo+wJIfDj5bFKS21hHsiw4X
+JY14LUN4kg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4b4bc8d5-10c7-4026-bc64-fbde9aa023d6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0rn6g16jkyr1NaUK+0H1EG0ZEMxD9O3K1kkCvpRanqdqEqPZ3jyo50jGNDQP7BTITK4Qa8CHxuxs
+/FmMv8z2rA==</DigestValue></Reference></SignedInfo><SignatureValue>dxuV1075JWpwyKlV2qqwUm8aCg0stGAgCVy600buz1t5dmh6rVOHonoYeuSoV2t7gMYs4fNbLvv7
+5P1u8V0EAc7o4kg0gDijWAChsE0qmGiheJm/PvptwsoS9teukScF7ZteH129vZ8xRJghEvPzwRcx
+/xUKlzndccN8YoMnWs47c+OuQKWqsY2yLG0mYsthz8pK0jNskzAX2pXfo9zdClhedy9doksXgfi1
+k4YGI6UWCaPxUT9WVLq6FArWPja19PV8K3ptfRez+xf2TklIWsenauG2VRBUbyNC3HnbKNrdYHoY
+EoxL+5LzZI61NfjqzShG1trEjhlKkYBYCCbFTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4b4bc8d5-10c7-4026-bc64-fbde9aa023d6" Target="#_c5ce0c27-74c1-4d64-a068-2cdab4358c0e"><Timestamp>2020-04-02 05:19:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
