@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_i8dagXSyEeqfKN4EtrYNdg" name="Customer_Matching_Analysis" creationDate="2020-04-02T14:51:18.631+0800">
+  <taggedValue xmi:id="_i8dagnSyEeqfKN4EtrYNdg" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_i8dag3SyEeqfKN4EtrYNdg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_i8dahHSyEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+  <taggedValue xmi:id="_i8dahXSyEeqfKN4EtrYNdg" tag="Purpose"/>
+  <taggedValue xmi:id="_i8dahnSyEeqfKN4EtrYNdg" tag="Description"/>
+  <taggedValue xmi:id="_i8dah3SyEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
+  <context xmi:id="_i8daiHSyEeqfKN4EtrYNdg"/>
+  <results xmi:id="_i8daiXSyEeqfKN4EtrYNdg">
+    <resultMetadata xmi:id="_i8dainSyEeqfKN4EtrYNdg"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_i8dai3SyEeqfKN4EtrYNdg"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_i8dajHSyEeqfKN4EtrYNdg">
+      <builtInMatchRuleDefinition xmi:id="_i8dajXSyEeqfKN4EtrYNdg"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_i8dajnSyEeqfKN4EtrYNdg" analysisType="Match Analysis"/>
+</dataquality.analysis:Analysis>
