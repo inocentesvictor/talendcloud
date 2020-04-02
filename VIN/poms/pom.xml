@@ -25,11 +25,11 @@
     <module>jobs/process/CSIT/demo_read_0.1</module>
     <module>jobs/process/CSIT/demo_readmultiple_0.1</module>
     <module>jobs/process/CSIT/demo_write_0.1</module>
-    <module>jobs/process/Meralco_DQ/tdqreportrun_1585239181080_0.1</module>
-    <module>jobs/process/Meralco_DQ/meco_customer_apply_dq_rules_0.1</module>
-    <module>jobs/process/Meralco_DQ/get_deduplicated_records_0.1</module>
-    <module>jobs/process/Meralco_DQ/gsl_dq_load_to_table_0.1</module>
-    <module>jobs/process/Meralco_DQ/gsl_get_resolved_records_0.1</module>
+    <module>jobs/process/DQ/get_deduplicated_records_0.1</module>
+    <module>jobs/process/DQ/gsl_dq_load_to_table_0.1</module>
+    <module>jobs/process/DQ/gsl_get_resolved_records_0.1</module>
+    <module>jobs/process/DQ/meco_customer_apply_dq_rules_0.1</module>
+    <module>jobs/process/DQ/tdqreportrun_1585239181080_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
