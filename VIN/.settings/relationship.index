@@ -1134,10 +1134,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_GR9jkDdqEeqjAq_5Ldf_uA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -1159,10 +1155,6 @@
     "type" : "routine"
   }, {
     "id" : "DqStringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
     "version" : "Latest",
     "type" : "routine"
   }, {
