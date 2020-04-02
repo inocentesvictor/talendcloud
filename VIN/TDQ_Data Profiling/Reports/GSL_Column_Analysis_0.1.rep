@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_O6SNAHSvEeqfKN4EtrYNdg" name="GSL_Column_Analysis" creationDate="2020-04-02T14:27:35.685+0800">
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_O6SNAHSvEeqfKN4EtrYNdg" name="GSL_Column_Analysis" creationDate="2020-04-02T14:27:35.685+0800" defaultContext="Default">
   <clientDependency href="../Analyses/GSL_Column_Analysis_0.1.ana#_O6S0EHSvEeqfKN4EtrYNdg"/>
-  <taggedValue xmi:id="_O6SNAXSvEeqfKN4EtrYNdg" tag="OutputFolder" value=""/>
-  <taggedValue xmi:id="_O6SNAnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
-  <taggedValue xmi:id="_O6SNA3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBVERSION" value=""/>
-  <taggedValue xmi:id="_O6SNBHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_HOST" value=""/>
-  <taggedValue xmi:id="_O6SNBXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_O6SNAXSvEeqfKN4EtrYNdg" tag="OutputFolder" value="C:\Users\Victor\Desktop\DQ_Demo"/>
+  <taggedValue xmi:id="_O6SNAnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBTYPE" value="PostgreSQL"/>
+  <taggedValue xmi:id="_O6SNA3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBVERSION" value="V9_X"/>
+  <taggedValue xmi:id="_O6SNBHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_O6SNBXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_PORT" value="5432"/>
   <taggedValue xmi:id="_O6SNBnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_WAREHOUSE" value=""/>
   <taggedValue xmi:id="_O6SNB3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
-  <taggedValue xmi:id="_O6SNCHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_SCHEMA" value=""/>
-  <taggedValue xmi:id="_O6SNCXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_USER" value="sa"/>
-  <taggedValue xmi:id="_O6SNCnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:ncubNvD0oUH/lHIt+gnuFbWNkTsKQYs2PNozxg=="/>
+  <taggedValue xmi:id="_O6SNCHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_SCHEMA" value="public"/>
+  <taggedValue xmi:id="_O6SNCXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_USER" value="postgres"/>
+  <taggedValue xmi:id="_O6SNCnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:cP0m4pUVnD0PxA0ba80LUu+n/m1v/B9ihYfuof3KsEzSGjO8"/>
   <taggedValue xmi:id="_O6SNC3SvEeqfKN4EtrYNdg" tag="REP_DBINFO_PARAMETER" value=""/>
-  <taggedValue xmi:id="_O6SNDHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\TDQ_reporting_db\talend_dq"/>
-  <taggedValue xmi:id="_O6SNDXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
-  <taggedValue xmi:id="_O6SNDnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_O6SNDHSvEeqfKN4EtrYNdg" tag="REP_DBINFO_URL" value="jdbc:postgresql://localhost:5432/talend_dq?"/>
+  <taggedValue xmi:id="_O6SNDXSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DRIVER" value="org.postgresql.Driver"/>
+  <taggedValue xmi:id="_O6SNDnSvEeqfKN4EtrYNdg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.PostgreSQLDialect"/>
   <taggedValue xmi:id="_O6SND3SvEeqfKN4EtrYNdg" tag="REP_PASSWORD_CONTEXT" value="false"/>
   <taggedValue xmi:id="_O6SNEHSvEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+  <taggedValue xmi:id="_dS1m8HSvEeqfKN4EtrYNdg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_dS1m8XSvEeqfKN4EtrYNdg" tag="Description" value=""/>
+  <taggedValue xmi:id="_dS1m8nSvEeqfKN4EtrYNdg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_dS1m83SvEeqfKN4EtrYNdg" tag="OutputFileName" value="GSL_Column_Analysis_Daily"/>
+  <taggedValue xmi:id="_dS1m9HSvEeqfKN4EtrYNdg" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_dS2OAHSvEeqfKN4EtrYNdg" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_dS2OAXSvEeqfKN4EtrYNdg" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_dS9iwXSvEeqfKN4EtrYNdg" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <presentationParams xmi:id="_dS7tkHSvEeqfKN4EtrYNdg" type="TOP_MIDDLE_PRESENTATIONKEY">
+    <formula xmi:id="_dS8UoHSvEeqfKN4EtrYNdg">
+      <expression xsi:type="relational:TdExpression" xmi:id="_dS8UoXSvEeqfKN4EtrYNdg" body=""/>
+    </formula>
+  </presentationParams>
   <analysisMap xmi:id="_O6SNEXSvEeqfKN4EtrYNdg" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/GSL_Column_Analysis_0.1.ana#_sI5RsXSuEeqfKN4EtrYNdg"/>
   </analysisMap>
+  <context xmi:id="_dS9iwHSvEeqfKN4EtrYNdg" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
