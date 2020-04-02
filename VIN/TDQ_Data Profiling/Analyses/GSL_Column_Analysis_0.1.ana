@@ -174,6 +174,12 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_E2WC4HSvEeqfKN4EtrYNdg" name="Meralco_INC_ID_Rule" count="1000" computed="true" validRow="true" matchingValueCount="953" notMatchingValueCount="47">
         <parameters xmi:id="_E2WC4XSvEeqfKN4EtrYNdg">
+          <indicatorValidDomain xmi:id="_qIYWAHSvEeqfKN4EtrYNdg" name="Indicator threshold">
+            <ranges xmi:id="_qIYWAXSvEeqfKN4EtrYNdg" name="Percentage Threshold">
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_qIY9EHSvEeqfKN4EtrYNdg" value="0.04"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_qIY9EXSvEeqfKN4EtrYNdg" value="0.1"/>
+            </ranges>
+          </indicatorValidDomain>
           <dataValidDomain xmi:id="_E2WC4nSvEeqfKN4EtrYNdg">
             <patterns href="../../TDQ_Libraries/Patterns/Regex/Meralco_INC_ID_Rule_0.1.pattern#_noyJgG89EeqiWbeLnZtbRA"/>
           </dataValidDomain>
