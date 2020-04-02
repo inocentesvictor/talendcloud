@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:MatchRuleDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_-hfc0HSyEeqfKN4EtrYNdg" name="Customer_Match_Rule">
+  <taggedValue xmi:id="_-hfc0XSyEeqfKN4EtrYNdg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_-hfc0nSyEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+  <taggedValue xmi:id="_-hfc03SyEeqfKN4EtrYNdg" tag="Purpose"/>
+  <taggedValue xmi:id="_-hfc1HSyEeqfKN4EtrYNdg" tag="Description"/>
+  <taggedValue xmi:id="_-hfc1XSyEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_-hfc1nSyEeqfKN4EtrYNdg" tag="Validation_Status" value="true"/>
+  <matchRules xmi:id="_-hfc13SyEeqfKN4EtrYNdg" name="Match Rule 3">
+    <matchKeys xmi:id="_-hfc2HSyEeqfKN4EtrYNdg" name="FIRST_NAME" column="FIRST_NAME" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_-hfc2XSyEeqfKN4EtrYNdg" algorithmType="JARO_WINKLER" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_-hfc2nSyEeqfKN4EtrYNdg" name="LAST_NAME" column="LAST_NAME" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_-hfc23SyEeqfKN4EtrYNdg" algorithmType="JARO_WINKLER" algorithmParameters=""/>
+    </matchKeys>
+  </matchRules>
+  <survivorshipKeys xmi:id="_-hfc3HSyEeqfKN4EtrYNdg" name="FIRST_NAME" allowManualResolution="true">
+    <function xmi:id="_-hfc3XSyEeqfKN4EtrYNdg" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+  <survivorshipKeys xmi:id="_-hfc3nSyEeqfKN4EtrYNdg" name="LAST_NAME" allowManualResolution="true">
+    <function xmi:id="_-hfc33SyEeqfKN4EtrYNdg" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+</dataquality.rules:MatchRuleDefinition>
