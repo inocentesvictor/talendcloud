@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
   <dataquality.rules:WhereRule xmi:id="_nvsBUW_CEeqxmZ9FXrzoMg" name="MECO_LOCATION_NAME" supplierDependency="_uanBM2_CEeqxmZ9FXrzoMg" criticalityLevel="1" whereExpression="&quot;Location_name&quot; is not null">
     <taggedValue xmi:id="_nvsBUm_CEeqxmZ9FXrzoMg" tag="Status" value="development"/>
     <taggedValue xmi:id="_nvsBU2_CEeqxmZ9FXrzoMg" tag="Author" value="user@talend.com"/>
@@ -10,5 +10,7 @@
     <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
     <sqlGenericExpression xmi:id="_nvsBWG_CEeqxmZ9FXrzoMg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
   </dataquality.rules:WhereRule>
-  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_uanBM2_CEeqxmZ9FXrzoMg" kind="Usage" supplier="_nvsBUW_CEeqxmZ9FXrzoMg"/>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_uanBM2_CEeqxmZ9FXrzoMg" kind="Usage" supplier="_nvsBUW_CEeqxmZ9FXrzoMg">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/GSL_Business_Rule_Analysis_0.1.ana#_9-Wa4HSvEeqfKN4EtrYNdg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

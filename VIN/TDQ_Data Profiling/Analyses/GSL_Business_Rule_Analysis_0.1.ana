@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_9-Wa4HSvEeqfKN4EtrYNdg" name="GSL_Business_Rule_Analysis" creationDate="2020-04-02T14:32:51.533+0800">
-  <taggedValue xmi:id="_9-Wa4XSvEeqfKN4EtrYNdg" tag="Status" value="development"/>
-  <taggedValue xmi:id="_9-Wa4nSvEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
-  <taggedValue xmi:id="_9-Wa43SvEeqfKN4EtrYNdg" tag="Purpose"/>
-  <taggedValue xmi:id="_9-Wa5HSvEeqfKN4EtrYNdg" tag="Description"/>
-  <taggedValue xmi:id="_9-Wa5XSvEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
-  <context xmi:id="_9-Wa5nSvEeqfKN4EtrYNdg"/>
-  <results xmi:id="_9-Wa53SvEeqfKN4EtrYNdg">
-    <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg"/>
-  </results>
-  <parameters xmi:id="_9-Wa6XSvEeqfKN4EtrYNdg" analysisType="Table Analysis"/>
-</dataquality.analysis:Analysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_9-Wa4HSvEeqfKN4EtrYNdg" name="GSL_Business_Rule_Analysis" creationDate="2020-04-02T14:32:51.533+0800" defaultContext="Default">
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/MECO_LOCATION_NAME_0.1.rules#_uanBM2_CEeqxmZ9FXrzoMg"/>
+    <clientDependency href="../../metadata/connections/PostgreSQL_0.1.item#_KK4xkG_AEeqxmZ9FXrzoMg"/>
+    <taggedValue xmi:id="_9-Wa4XSvEeqfKN4EtrYNdg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_9-Wa4nSvEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
+    <taggedValue xmi:id="_9-Wa43SvEeqfKN4EtrYNdg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_9-Wa5HSvEeqfKN4EtrYNdg" tag="Description" value=""/>
+    <taggedValue xmi:id="_9-Wa5XSvEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_W9NsMXSwEeqfKN4EtrYNdg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_W9NsNHSwEeqfKN4EtrYNdg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_9-Wa5nSvEeqfKN4EtrYNdg">
+      <connection href="../../metadata/connections/PostgreSQL_0.1.item#_xUJbwG9iEeqqBJr8Rf94ig"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/PostgreSQL_0.1.item#_yQW1o2_AEeqxmZ9FXrzoMg"/>
+    </context>
+    <results xmi:id="_9-Wa53SvEeqfKN4EtrYNdg">
+      <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg" executionDate="2020-04-02T14:35:41.628+0800" executionDuration="129" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_W9NsMnSwEeqfKN4EtrYNdg" count="914" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/PostgreSQL_0.1.item#_yQW1o2_AEeqxmZ9FXrzoMg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_XUgK0HSwEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &quot;public&quot;.&quot;fact_gsl_incident_location&quot; " language="PostgreSQL"/>
+        <builtInIndicatorDefinition xmi:id="_XUY2EHSwEeqfKN4EtrYNdg" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_XUY2EXSwEeqfKN4EtrYNdg" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_XUY2EnSwEeqfKN4EtrYNdg" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_XUY2E3SwEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_W9NsM3SwEeqfKN4EtrYNdg" count="914" computed="true" userCount="0">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/PostgreSQL_0.1.item#_yQW1o2_AEeqxmZ9FXrzoMg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/MECO_LOCATION_NAME_0.1.rules#_nvsBUW_CEeqxmZ9FXrzoMg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_XUgK0XSwEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &quot;public&quot;.&quot;fact_gsl_incident_location&quot;   WHERE (&quot;Location_name&quot; is not null)" language="PostgreSQL"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_XUcgcHSwEeqfKN4EtrYNdg" name="MECO_LOCATION_NAME" criticalityLevel="1" whereExpression="&quot;Location_name&quot; is not null">
+          <taggedValue xmi:id="_XUcgcXSwEeqfKN4EtrYNdg" tag="Status" value="development"/>
+          <taggedValue xmi:id="_XUcgcnSwEeqfKN4EtrYNdg" tag="Author" value="user@talend.com"/>
+          <taggedValue xmi:id="_XUcgc3SwEeqfKN4EtrYNdg" tag="Purpose" value=""/>
+          <taggedValue xmi:id="_XUcgdHSwEeqfKN4EtrYNdg" tag="Description" value=""/>
+          <taggedValue xmi:id="_XUcgdXSwEeqfKN4EtrYNdg" tag="Version" value="0.1"/>
+          <taggedValue xmi:id="_XUcgdnSwEeqfKN4EtrYNdg" tag="Validation_Status" value="true"/>
+          <sqlGenericExpression xmi:id="_XUcgd3SwEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_9-Wa6XSvEeqfKN4EtrYNdg" dataFilter="_W9gAEHSwEeqfKN4EtrYNdg" analysisType="Table Analysis"/>
+    <contextType xmi:id="_W9NsMHSwEeqfKN4EtrYNdg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_W9gAEHSwEeqfKN4EtrYNdg" name="GSL_Business_Rule_Analysis">
+    <ranges xmi:id="_W9gAEXSwEeqfKN4EtrYNdg">
+      <expressions xmi:id="_W9gAEnSwEeqfKN4EtrYNdg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_W9gAE3SwEeqfKN4EtrYNdg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
