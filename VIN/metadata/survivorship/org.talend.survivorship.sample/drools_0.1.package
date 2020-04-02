@@ -1,0 +1,31 @@
+package org.talend.survivorship.sample 
+
+import java.util.Date
+import java.math.BigDecimal
+
+global org.talend.survivorship.model.DataSet dataset
+
+declare  RecordIn 
+
+    TALEND_INTERNAL_ID : int  
+    customer_key : Integer  
+    cust_id : Integer  
+    first_name : String  
+    last_name : String  
+    cust_identity_num : String  
+    birth_date : String  
+    nationality : String  
+    gender : Character  
+    home_number : Long  
+    mobile_number : Long  
+    email_address : String  
+    billing_cycle : Integer  
+    billing_frequency : Integer  
+    gid : String  
+    grp_size : Integer  
+    master : Boolean  
+    score : Double  
+    grp_quality : Double  
+end
+
+

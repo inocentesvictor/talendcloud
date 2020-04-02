@@ -1,0 +1,14 @@
+package org.talend.survivorship.sample 
+
+rule "LastName"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "LastNameGroup"
+when
+    $input : RecordIn( dataset.isLongest( last_name, "LAST_NAME", false) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "LAST_NAME", drools.getRule().getName());
+
+end
+
+
