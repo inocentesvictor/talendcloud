@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_sI5RsXSuEeqfKN4EtrYNdg" name="GSL_Column_Analysis" creationDate="2020-04-02T14:23:42.346+0800" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/GSL_Sample_Data_0.1.item#_6qkyfXSuEeqfKN4EtrYNdg"/>
-    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/Incident_ID_Pattern_0.1.pattern#_6qujcHSuEeqfKN4EtrYNdg"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/Meralco_INC_ID_Rule_0.1.pattern#_umh-wG89EeqiWbeLnZtbRA"/>
     <taggedValue xmi:id="_sI5RsnSuEeqfKN4EtrYNdg" tag="Status" value="development"/>
     <taggedValue xmi:id="_sI5Rs3SuEeqfKN4EtrYNdg" tag="Author" value="vinocentes@vin.talend.com"/>
     <taggedValue xmi:id="_sI5RtHSuEeqfKN4EtrYNdg" tag="Purpose" value=""/>
@@ -19,7 +19,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/GSL_Sample_Data_0.1.item#__UzRc3SkEeqfKN4EtrYNdg"/>
     </context>
     <results xmi:id="_sI5RuHSuEeqfKN4EtrYNdg">
-      <resultMetadata xmi:id="_sI5RuXSuEeqfKN4EtrYNdg" executionDate="2020-04-02T14:25:23.243+0800" executionDuration="683" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_sI5RuXSuEeqfKN4EtrYNdg" executionDate="2020-04-02T14:26:29.044+0800" executionDuration="223" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_6qkycXSuEeqfKN4EtrYNdg" count="1000" computed="true">
         <parameters xmi:id="_6qkycnSuEeqfKN4EtrYNdg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/GSL_Sample_Data_0.1.item#__UzRdnSkEeqfKN4EtrYNdg"/>
@@ -172,10 +172,10 @@
           <sqlGenericExpression xmi:id="_7KUph3SuEeqfKN4EtrYNdg" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_6qlZjXSuEeqfKN4EtrYNdg" name="Incident_ID_Pattern" count="1000" computed="true" inValidRow="true" notMatchingValueCount="1000">
-        <parameters xmi:id="_6qlZjnSuEeqfKN4EtrYNdg">
-          <dataValidDomain xmi:id="_6qlZj3SuEeqfKN4EtrYNdg">
-            <patterns href="../../TDQ_Libraries/Patterns/Regex/Incident_ID_Pattern_0.1.pattern#_V-E1UHSuEeqfKN4EtrYNdg"/>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_E2WC4HSvEeqfKN4EtrYNdg" name="Meralco_INC_ID_Rule" count="1000" computed="true" validRow="true" matchingValueCount="953" notMatchingValueCount="47">
+        <parameters xmi:id="_E2WC4XSvEeqfKN4EtrYNdg">
+          <dataValidDomain xmi:id="_E2WC4nSvEeqfKN4EtrYNdg">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/Meralco_INC_ID_Rule_0.1.pattern#_noyJgG89EeqiWbeLnZtbRA"/>
           </dataValidDomain>
         </parameters>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/GSL_Sample_Data_0.1.item#__UzRd3SkEeqfKN4EtrYNdg"/>
