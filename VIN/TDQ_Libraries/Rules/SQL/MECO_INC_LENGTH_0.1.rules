@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.rules:WhereRule xmi:id="_JuwZwW_BEeqxmZ9FXrzoMg" name="MECO_INC_LENGTH" supplierDependency="_COOLE2_CEeqxmZ9FXrzoMg" criticalityLevel="1" whereExpression="&quot;Incident_ID&quot; like 'INC __________'">
+    <taggedValue xmi:id="_JuwZwm_BEeqxmZ9FXrzoMg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_JuwZw2_BEeqxmZ9FXrzoMg" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_JuwZxG_BEeqxmZ9FXrzoMg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JuwZxW_BEeqxmZ9FXrzoMg" tag="Description" value=""/>
+    <taggedValue xmi:id="_JuwZxm_BEeqxmZ9FXrzoMg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_JuwZx2_BEeqxmZ9FXrzoMg" tag="Validation_Status" value="true"/>
+    <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
+    <sqlGenericExpression xmi:id="_JuwZyG_BEeqxmZ9FXrzoMg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+  </dataquality.rules:WhereRule>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_COOLE2_CEeqxmZ9FXrzoMg" kind="Usage" supplier="_JuwZwW_BEeqxmZ9FXrzoMg"/>
+</xmi:XMI>
