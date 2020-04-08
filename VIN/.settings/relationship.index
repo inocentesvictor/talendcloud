@@ -171,10 +171,6 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "MDM",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
     "id" : "Mathematical",
     "version" : "Latest",
     "type" : "routine"
@@ -210,14 +206,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_a678MElREeqK5tXt5ZCUdg - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_mosHUElSEeqK5tXt5ZCUdg - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
