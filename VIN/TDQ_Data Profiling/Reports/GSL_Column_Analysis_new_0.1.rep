@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_sus0gH1hEeqaZtZGOY-acw" name="GSL_Column_Analysis_new" creationDate="2020-04-13T16:05:15.507+0800">
+  <clientDependency href="../Analyses/GSL_Column_Analysis_0.1.ana#_O6S0EHSvEeqfKN4EtrYNdg"/>
+  <taggedValue xmi:id="_sus0gX1hEeqaZtZGOY-acw" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_sus0gn1hEeqaZtZGOY-acw" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_sus0g31hEeqaZtZGOY-acw" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_sus0hH1hEeqaZtZGOY-acw" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_sus0hX1hEeqaZtZGOY-acw" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_sus0hn1hEeqaZtZGOY-acw" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_sus0h31hEeqaZtZGOY-acw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_sus0iH1hEeqaZtZGOY-acw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_sus0iX1hEeqaZtZGOY-acw" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_sus0in1hEeqaZtZGOY-acw" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:nWCTPXDfr5qENNcC6nAEz69AVGK2wj0+WyFSMA=="/>
+  <taggedValue xmi:id="_sus0i31hEeqaZtZGOY-acw" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_sus0jH1hEeqaZtZGOY-acw" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_sus0jX1hEeqaZtZGOY-acw" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_sus0jn1hEeqaZtZGOY-acw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_sus0j31hEeqaZtZGOY-acw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_sus0kH1hEeqaZtZGOY-acw" tag="Author" value="vinocentes@vin.talend.com"/>
+  <analysisMap xmi:id="_sus0kX1hEeqaZtZGOY-acw" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/GSL_Column_Analysis_0.1.ana#_sI5RsXSuEeqfKN4EtrYNdg"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
