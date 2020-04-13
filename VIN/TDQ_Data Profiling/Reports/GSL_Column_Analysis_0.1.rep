@@ -33,6 +33,6 @@
   <analysisMap xmi:id="_O6SNEXSvEeqfKN4EtrYNdg" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/GSL_Column_Analysis_0.1.ana#_sI5RsXSuEeqfKN4EtrYNdg"/>
   </analysisMap>
-  <ExecInformations xmi:id="_eD7ssHSvEeqfKN4EtrYNdg" executionDate="2020-04-02T14:29:17.158+0800" executionDuration="212" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <ExecInformations xmi:id="_eD7ssHSvEeqfKN4EtrYNdg" executionDate="2020-04-13T16:06:18.587+0800" executionDuration="287" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
   <context xmi:id="_dS9iwHSvEeqfKN4EtrYNdg" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
