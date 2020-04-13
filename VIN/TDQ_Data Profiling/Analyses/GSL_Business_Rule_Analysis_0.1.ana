@@ -15,8 +15,8 @@
       <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/Postgre_demoDB_0.1.item#_OTb9g3SxEeqfKN4EtrYNdg"/>
     </context>
     <results xmi:id="_9-Wa53SvEeqfKN4EtrYNdg">
-      <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg" executionDate="2020-04-02T14:42:41.368+0800" executionDuration="134" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_VKTusHSxEeqfKN4EtrYNdg" count="1029" computed="true">
+      <resultMetadata xmi:id="_9-Wa6HSvEeqfKN4EtrYNdg" executionDate="2020-04-13T16:11:11.931+0800" executionDuration="158" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_VKTusHSxEeqfKN4EtrYNdg" count="914" computed="true">
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Postgre_demoDB_0.1.item#_OTb9g3SxEeqfKN4EtrYNdg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_V3dIkHSxEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &quot;demo&quot;.&quot;fact_gsl_incident_location&quot; " language="PostgreSQL"/>
@@ -26,7 +26,7 @@
           <sqlGenericExpression xmi:id="_V3Uls3SxEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_VKTusXSxEeqfKN4EtrYNdg" count="1029" computed="true" userCount="457">
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_VKTusXSxEeqfKN4EtrYNdg" count="914" computed="true" userCount="914">
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Postgre_demoDB_0.1.item#_OTb9g3SxEeqfKN4EtrYNdg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/MECO_LOCATION_NAME_0.1.rules#_nvsBUW_CEeqxmZ9FXrzoMg"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_V3dIkXSxEeqfKN4EtrYNdg" body="SELECT COUNT(*) FROM &quot;demo&quot;.&quot;fact_gsl_incident_location&quot;   WHERE (&quot;LOCATION_ID&quot; is not null)" language="PostgreSQL"/>
