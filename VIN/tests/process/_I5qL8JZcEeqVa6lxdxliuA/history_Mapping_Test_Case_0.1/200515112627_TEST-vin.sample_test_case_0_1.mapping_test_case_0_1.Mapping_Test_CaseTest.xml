@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest" time="0.075" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\.repositories\194083883\master\VIN\poms\jobs\process\Test_Case\sample_test_case_0.1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\.repositories\194083883\master\VIN\poms\jobs\process\Test_Case\sample_test_case_0.1"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Victor\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6618478129115813679.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Greenplum\greenplum-clients\bin;C:\Program Files\Greenplum\greenplum-clients\lib;C:\Program Files (x86)\Microsoft SDKs\Azure\AzCopy;C:\Users\Victor\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\FAHClient;C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Victor"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Victor"/>
+    <property name="java.class.path" value="C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -o -s C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\configuration\maven_user_settings.xml test -llr -l C:/Talend/7.3.1/Talend-Studio-20200219_1130-V7.3.1/Talend-Studio-20200219_1130-V7.3.1/workspace/.repositories/194083883/master/VIN/poms/jobs/process/Test_Case/sample_test_case_0.1/lastGenerated.log -Dci.builder.skip=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="ci.builder.skip" value="true"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Talend\7.3.1\Talend-Studio-20200219_1130-V7.3.1\Talend-Studio-20200219_1130-V7.3.1\workspace\.repositories\194083883\master\VIN\poms\jobs\process\Test_Case\sample_test_case_0.1\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest.testDefault" classname="vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest" time="0.071">
+    <failure message="Failure=1&#10;tAssert_1:File from reference differs from input&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Failure=1
+tAssert_1:File from reference differs from input
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest.testDefault(Mapping_Test_CaseTest.java:3198)
+</failure>
+    <system-out><![CDATA[11:26:24.808 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10001,Madison'. Details: java.lang.NumberFormatException: For input string: "10001,Madison"
+11:26:24.812 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10002,Carson City'. Details: java.lang.NumberFormatException: For input string: "10002,Carson City"
+11:26:24.812 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10003,Augusta'. Details: java.lang.NumberFormatException: For input string: "10003,Augusta"
+11:26:24.812 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10004,Saint Paul'. Details: java.lang.NumberFormatException: For input string: "10004,Saint Paul"
+11:26:24.813 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10005,Dover'. Details: java.lang.NumberFormatException: For input string: "10005,Dover"
+11:26:24.813 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10006,Sacramento'. Details: java.lang.NumberFormatException: For input string: "10006,Sacramento"
+11:26:24.813 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10007,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10007,Des Moines"
+11:26:24.813 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10008,Salem'. Details: java.lang.NumberFormatException: For input string: "10008,Salem"
+11:26:24.813 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10009,Austin'. Details: java.lang.NumberFormatException: For input string: "10009,Austin"
+11:26:24.814 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10010,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10010,Honolulu"
+11:26:24.814 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10011,Baton Rouge'. Details: java.lang.NumberFormatException: For input string: "10011,Baton Rouge"
+11:26:24.814 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10012,Montgomery'. Details: java.lang.NumberFormatException: For input string: "10012,Montgomery"
+11:26:24.814 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10013,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10013,Honolulu"
+11:26:24.814 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10014,Albany'. Details: java.lang.NumberFormatException: For input string: "10014,Albany"
+11:26:24.815 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10015,Concord'. Details: java.lang.NumberFormatException: For input string: "10015,Concord"
+11:26:24.815 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10016,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10016,Tallahassee"
+11:26:24.815 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10017,Nashville'. Details: java.lang.NumberFormatException: For input string: "10017,Nashville"
+11:26:24.815 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10018,Boise'. Details: java.lang.NumberFormatException: For input string: "10018,Boise"
+11:26:24.815 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10019,Jefferson City'. Details: java.lang.NumberFormatException: For input string: "10019,Jefferson City"
+11:26:24.816 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10020,Montpelier'. Details: java.lang.NumberFormatException: For input string: "10020,Montpelier"
+11:26:24.816 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10021,Carson City'. Details: java.lang.NumberFormatException: For input string: "10021,Carson City"
+11:26:24.816 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10022,Harrisburg'. Details: java.lang.NumberFormatException: For input string: "10022,Harrisburg"
+11:26:24.816 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10023,Trenton'. Details: java.lang.NumberFormatException: For input string: "10023,Trenton"
+11:26:24.816 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10024,Lansing'. Details: java.lang.NumberFormatException: For input string: "10024,Lansing"
+11:26:24.817 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10025,Baton Rouge'. Details: java.lang.NumberFormatException: For input string: "10025,Baton Rouge"
+11:26:24.817 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10026,Indianapolis'. Details: java.lang.NumberFormatException: For input string: "10026,Indianapolis"
+11:26:24.817 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10027,Frankfort'. Details: java.lang.NumberFormatException: For input string: "10027,Frankfort"
+11:26:24.817 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10028,Cheyenne'. Details: java.lang.NumberFormatException: For input string: "10028,Cheyenne"
+11:26:24.817 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10029,Denver'. Details: java.lang.NumberFormatException: For input string: "10029,Denver"
+11:26:24.818 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10030,Little Rock'. Details: java.lang.NumberFormatException: For input string: "10030,Little Rock"
+11:26:24.818 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10031,Salem'. Details: java.lang.NumberFormatException: For input string: "10031,Salem"
+11:26:24.818 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10032,Olympia'. Details: java.lang.NumberFormatException: For input string: "10032,Olympia"
+11:26:24.818 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10033,Baton Rouge'. Details: java.lang.NumberFormatException: For input string: "10033,Baton Rouge"
+11:26:24.818 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10034,Raleigh'. Details: java.lang.NumberFormatException: For input string: "10034,Raleigh"
+11:26:24.819 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10035,Montgomery'. Details: java.lang.NumberFormatException: For input string: "10035,Montgomery"
+11:26:24.819 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10036,Olympia'. Details: java.lang.NumberFormatException: For input string: "10036,Olympia"
+11:26:24.819 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10037,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10037,Tallahassee"
+11:26:24.819 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10038,Richmond'. Details: java.lang.NumberFormatException: For input string: "10038,Richmond"
+11:26:24.819 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10039,Providence'. Details: java.lang.NumberFormatException: For input string: "10039,Providence"
+11:26:24.819 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10040,Providence'. Details: java.lang.NumberFormatException: For input string: "10040,Providence"
+11:26:24.820 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10041,Boston'. Details: java.lang.NumberFormatException: For input string: "10041,Boston"
+11:26:24.820 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10042,Augusta'. Details: java.lang.NumberFormatException: For input string: "10042,Augusta"
+11:26:24.820 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10043,Atlanta'. Details: java.lang.NumberFormatException: For input string: "10043,Atlanta"
+11:26:24.820 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10044,Dover'. Details: java.lang.NumberFormatException: For input string: "10044,Dover"
+11:26:24.820 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10045,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10045,Phoenix"
+11:26:24.821 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10046,Boise'. Details: java.lang.NumberFormatException: For input string: "10046,Boise"
+11:26:24.821 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10047,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10047,Honolulu"
+11:26:24.821 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10048,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10048,Des Moines"
+11:26:24.821 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10049,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10049,Tallahassee"
+11:26:24.821 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10050,Madison'. Details: java.lang.NumberFormatException: For input string: "10050,Madison"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10051,Dover'. Details: java.lang.NumberFormatException: For input string: "10051,Dover"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10052,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10052,Phoenix"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10053,Santa Fe'. Details: java.lang.NumberFormatException: For input string: "10053,Santa Fe"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10054,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10054,Honolulu"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10055,Oklahoma City'. Details: java.lang.NumberFormatException: For input string: "10055,Oklahoma City"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10056,Augusta'. Details: java.lang.NumberFormatException: For input string: "10056,Augusta"
+11:26:24.822 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10057,Saint Paul'. Details: java.lang.NumberFormatException: For input string: "10057,Saint Paul"
+11:26:24.823 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10058,Boise'. Details: java.lang.NumberFormatException: For input string: "10058,Boise"
+11:26:24.823 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10059,Juneau'. Details: java.lang.NumberFormatException: For input string: "10059,Juneau"
+11:26:24.823 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10060,Frankfort'. Details: java.lang.NumberFormatException: For input string: "10060,Frankfort"
+11:26:24.823 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10061,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10061,Des Moines"
+11:26:24.823 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10062,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10062,Phoenix"
+11:26:24.823 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10063,Topeka'. Details: java.lang.NumberFormatException: For input string: "10063,Topeka"
+11:26:24.824 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10064,Austin'. Details: java.lang.NumberFormatException: For input string: "10064,Austin"
+11:26:24.824 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10065,Pierre'. Details: java.lang.NumberFormatException: For input string: "10065,Pierre"
+11:26:24.824 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10066,Austin'. Details: java.lang.NumberFormatException: For input string: "10066,Austin"
+11:26:24.824 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10067,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10067,Tallahassee"
+11:26:24.824 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10068,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10068,Des Moines"
+11:26:24.824 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10069,Augusta'. Details: java.lang.NumberFormatException: For input string: "10069,Augusta"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10070,Montpelier'. Details: java.lang.NumberFormatException: For input string: "10070,Montpelier"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10071,Sacramento'. Details: java.lang.NumberFormatException: For input string: "10071,Sacramento"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10072,Charleston'. Details: java.lang.NumberFormatException: For input string: "10072,Charleston"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10073,Saint Paul'. Details: java.lang.NumberFormatException: For input string: "10073,Saint Paul"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10074,Indianapolis'. Details: java.lang.NumberFormatException: For input string: "10074,Indianapolis"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10075,Raleigh'. Details: java.lang.NumberFormatException: For input string: "10075,Raleigh"
+11:26:24.825 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10076,Topeka'. Details: java.lang.NumberFormatException: For input string: "10076,Topeka"
+11:26:24.826 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10077,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10077,Salt Lake City"
+11:26:24.826 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10078,Denver'. Details: java.lang.NumberFormatException: For input string: "10078,Denver"
+11:26:24.826 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10079,Hartford'. Details: java.lang.NumberFormatException: For input string: "10079,Hartford"
+11:26:24.826 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10080,Albany'. Details: java.lang.NumberFormatException: For input string: "10080,Albany"
+11:26:24.826 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10081,Oklahoma City'. Details: java.lang.NumberFormatException: For input string: "10081,Oklahoma City"
+11:26:24.826 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10082,Denver'. Details: java.lang.NumberFormatException: For input string: "10082,Denver"
+11:26:24.827 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10083,Helena'. Details: java.lang.NumberFormatException: For input string: "10083,Helena"
+11:26:24.827 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10084,Augusta'. Details: java.lang.NumberFormatException: For input string: "10084,Augusta"
+11:26:24.827 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10085,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10085,Phoenix"
+11:26:24.827 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10086,Pierre'. Details: java.lang.NumberFormatException: For input string: "10086,Pierre"
+11:26:24.827 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10087,Harrisburg'. Details: java.lang.NumberFormatException: For input string: "10087,Harrisburg"
+11:26:24.827 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10088,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10088,Salt Lake City"
+11:26:24.828 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10089,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10089,Salt Lake City"
+11:26:24.828 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10090,Concord'. Details: java.lang.NumberFormatException: For input string: "10090,Concord"
+11:26:24.828 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10091,Boston'. Details: java.lang.NumberFormatException: For input string: "10091,Boston"
+11:26:24.828 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10092,Jackson'. Details: java.lang.NumberFormatException: For input string: "10092,Jackson"
+11:26:24.828 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10093,Harrisburg'. Details: java.lang.NumberFormatException: For input string: "10093,Harrisburg"
+11:26:24.828 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10094,Austin'. Details: java.lang.NumberFormatException: For input string: "10094,Austin"
+11:26:24.829 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10095,Trenton'. Details: java.lang.NumberFormatException: For input string: "10095,Trenton"
+11:26:24.829 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10096,Austin'. Details: java.lang.NumberFormatException: For input string: "10096,Austin"
+11:26:24.829 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10097,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10097,Des Moines"
+11:26:24.829 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10098,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10098,Salt Lake City"
+11:26:24.829 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10099,Boston'. Details: java.lang.NumberFormatException: For input string: "10099,Boston"
+11:26:24.829 [main] ERROR vin.sample_test_case_0_1.mapping_test_case_0_1.Mapping_Test_CaseTest - tFileInputDelimited_2 - Couldn't parse value for column 'LocationID' in 'row4', value is '10100,Carson City'. Details: java.lang.NumberFormatException: For input string: "10100,Carson City"
+[job Mapping_Test_Case] Files differ
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+Couldn't parse value for column 'LocationID' in 'row4', value is '10001,Madison'. Details: java.lang.NumberFormatException: For input string: "10001,Madison"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10002,Carson City'. Details: java.lang.NumberFormatException: For input string: "10002,Carson City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10003,Augusta'. Details: java.lang.NumberFormatException: For input string: "10003,Augusta"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10004,Saint Paul'. Details: java.lang.NumberFormatException: For input string: "10004,Saint Paul"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10005,Dover'. Details: java.lang.NumberFormatException: For input string: "10005,Dover"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10006,Sacramento'. Details: java.lang.NumberFormatException: For input string: "10006,Sacramento"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10007,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10007,Des Moines"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10008,Salem'. Details: java.lang.NumberFormatException: For input string: "10008,Salem"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10009,Austin'. Details: java.lang.NumberFormatException: For input string: "10009,Austin"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10010,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10010,Honolulu"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10011,Baton Rouge'. Details: java.lang.NumberFormatException: For input string: "10011,Baton Rouge"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10012,Montgomery'. Details: java.lang.NumberFormatException: For input string: "10012,Montgomery"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10013,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10013,Honolulu"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10014,Albany'. Details: java.lang.NumberFormatException: For input string: "10014,Albany"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10015,Concord'. Details: java.lang.NumberFormatException: For input string: "10015,Concord"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10016,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10016,Tallahassee"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10017,Nashville'. Details: java.lang.NumberFormatException: For input string: "10017,Nashville"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10018,Boise'. Details: java.lang.NumberFormatException: For input string: "10018,Boise"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10019,Jefferson City'. Details: java.lang.NumberFormatException: For input string: "10019,Jefferson City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10020,Montpelier'. Details: java.lang.NumberFormatException: For input string: "10020,Montpelier"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10021,Carson City'. Details: java.lang.NumberFormatException: For input string: "10021,Carson City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10022,Harrisburg'. Details: java.lang.NumberFormatException: For input string: "10022,Harrisburg"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10023,Trenton'. Details: java.lang.NumberFormatException: For input string: "10023,Trenton"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10024,Lansing'. Details: java.lang.NumberFormatException: For input string: "10024,Lansing"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10025,Baton Rouge'. Details: java.lang.NumberFormatException: For input string: "10025,Baton Rouge"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10026,Indianapolis'. Details: java.lang.NumberFormatException: For input string: "10026,Indianapolis"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10027,Frankfort'. Details: java.lang.NumberFormatException: For input string: "10027,Frankfort"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10028,Cheyenne'. Details: java.lang.NumberFormatException: For input string: "10028,Cheyenne"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10029,Denver'. Details: java.lang.NumberFormatException: For input string: "10029,Denver"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10030,Little Rock'. Details: java.lang.NumberFormatException: For input string: "10030,Little Rock"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10031,Salem'. Details: java.lang.NumberFormatException: For input string: "10031,Salem"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10032,Olympia'. Details: java.lang.NumberFormatException: For input string: "10032,Olympia"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10033,Baton Rouge'. Details: java.lang.NumberFormatException: For input string: "10033,Baton Rouge"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10034,Raleigh'. Details: java.lang.NumberFormatException: For input string: "10034,Raleigh"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10035,Montgomery'. Details: java.lang.NumberFormatException: For input string: "10035,Montgomery"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10036,Olympia'. Details: java.lang.NumberFormatException: For input string: "10036,Olympia"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10037,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10037,Tallahassee"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10038,Richmond'. Details: java.lang.NumberFormatException: For input string: "10038,Richmond"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10039,Providence'. Details: java.lang.NumberFormatException: For input string: "10039,Providence"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10040,Providence'. Details: java.lang.NumberFormatException: For input string: "10040,Providence"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10041,Boston'. Details: java.lang.NumberFormatException: For input string: "10041,Boston"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10042,Augusta'. Details: java.lang.NumberFormatException: For input string: "10042,Augusta"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10043,Atlanta'. Details: java.lang.NumberFormatException: For input string: "10043,Atlanta"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10044,Dover'. Details: java.lang.NumberFormatException: For input string: "10044,Dover"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10045,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10045,Phoenix"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10046,Boise'. Details: java.lang.NumberFormatException: For input string: "10046,Boise"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10047,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10047,Honolulu"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10048,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10048,Des Moines"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10049,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10049,Tallahassee"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10050,Madison'. Details: java.lang.NumberFormatException: For input string: "10050,Madison"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10051,Dover'. Details: java.lang.NumberFormatException: For input string: "10051,Dover"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10052,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10052,Phoenix"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10053,Santa Fe'. Details: java.lang.NumberFormatException: For input string: "10053,Santa Fe"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10054,Honolulu'. Details: java.lang.NumberFormatException: For input string: "10054,Honolulu"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10055,Oklahoma City'. Details: java.lang.NumberFormatException: For input string: "10055,Oklahoma City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10056,Augusta'. Details: java.lang.NumberFormatException: For input string: "10056,Augusta"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10057,Saint Paul'. Details: java.lang.NumberFormatException: For input string: "10057,Saint Paul"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10058,Boise'. Details: java.lang.NumberFormatException: For input string: "10058,Boise"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10059,Juneau'. Details: java.lang.NumberFormatException: For input string: "10059,Juneau"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10060,Frankfort'. Details: java.lang.NumberFormatException: For input string: "10060,Frankfort"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10061,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10061,Des Moines"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10062,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10062,Phoenix"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10063,Topeka'. Details: java.lang.NumberFormatException: For input string: "10063,Topeka"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10064,Austin'. Details: java.lang.NumberFormatException: For input string: "10064,Austin"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10065,Pierre'. Details: java.lang.NumberFormatException: For input string: "10065,Pierre"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10066,Austin'. Details: java.lang.NumberFormatException: For input string: "10066,Austin"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10067,Tallahassee'. Details: java.lang.NumberFormatException: For input string: "10067,Tallahassee"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10068,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10068,Des Moines"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10069,Augusta'. Details: java.lang.NumberFormatException: For input string: "10069,Augusta"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10070,Montpelier'. Details: java.lang.NumberFormatException: For input string: "10070,Montpelier"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10071,Sacramento'. Details: java.lang.NumberFormatException: For input string: "10071,Sacramento"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10072,Charleston'. Details: java.lang.NumberFormatException: For input string: "10072,Charleston"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10073,Saint Paul'. Details: java.lang.NumberFormatException: For input string: "10073,Saint Paul"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10074,Indianapolis'. Details: java.lang.NumberFormatException: For input string: "10074,Indianapolis"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10075,Raleigh'. Details: java.lang.NumberFormatException: For input string: "10075,Raleigh"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10076,Topeka'. Details: java.lang.NumberFormatException: For input string: "10076,Topeka"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10077,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10077,Salt Lake City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10078,Denver'. Details: java.lang.NumberFormatException: For input string: "10078,Denver"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10079,Hartford'. Details: java.lang.NumberFormatException: For input string: "10079,Hartford"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10080,Albany'. Details: java.lang.NumberFormatException: For input string: "10080,Albany"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10081,Oklahoma City'. Details: java.lang.NumberFormatException: For input string: "10081,Oklahoma City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10082,Denver'. Details: java.lang.NumberFormatException: For input string: "10082,Denver"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10083,Helena'. Details: java.lang.NumberFormatException: For input string: "10083,Helena"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10084,Augusta'. Details: java.lang.NumberFormatException: For input string: "10084,Augusta"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10085,Phoenix'. Details: java.lang.NumberFormatException: For input string: "10085,Phoenix"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10086,Pierre'. Details: java.lang.NumberFormatException: For input string: "10086,Pierre"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10087,Harrisburg'. Details: java.lang.NumberFormatException: For input string: "10087,Harrisburg"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10088,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10088,Salt Lake City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10089,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10089,Salt Lake City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10090,Concord'. Details: java.lang.NumberFormatException: For input string: "10090,Concord"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10091,Boston'. Details: java.lang.NumberFormatException: For input string: "10091,Boston"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10092,Jackson'. Details: java.lang.NumberFormatException: For input string: "10092,Jackson"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10093,Harrisburg'. Details: java.lang.NumberFormatException: For input string: "10093,Harrisburg"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10094,Austin'. Details: java.lang.NumberFormatException: For input string: "10094,Austin"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10095,Trenton'. Details: java.lang.NumberFormatException: For input string: "10095,Trenton"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10096,Austin'. Details: java.lang.NumberFormatException: For input string: "10096,Austin"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10097,Des Moines'. Details: java.lang.NumberFormatException: For input string: "10097,Des Moines"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10098,Salt Lake City'. Details: java.lang.NumberFormatException: For input string: "10098,Salt Lake City"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10099,Boston'. Details: java.lang.NumberFormatException: For input string: "10099,Boston"
+Couldn't parse value for column 'LocationID' in 'row4', value is '10100,Carson City'. Details: java.lang.NumberFormatException: For input string: "10100,Carson City"
+]]></system-err>
+  </testcase>
+</testsuite>
