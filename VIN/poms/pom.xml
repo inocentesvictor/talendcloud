@@ -39,6 +39,7 @@
     <module>jobs/process_mr/Spark/sample_spark_job_0.1</module>
     <module>jobs/process_mr/MapReduce/sample_mapreduce_job_0.1</module>
     <module>jobs/process/Test_Case/generate_data_0.1</module>
+    <module>jobs/process/Test_Case/sample_test_case_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
