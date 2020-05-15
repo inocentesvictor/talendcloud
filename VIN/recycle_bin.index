@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-04-03T09:34:20.286+0800">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-05-15T10:51:47.367+0800">
+  <deletedFolders>process/Sample_Test_Case</deletedFolders>
   <deletedItems id="_2xyNgG-AEeqfMo-ePVZ5Hw" path="DQ" type="PROCESS"/>
   <deletedItems id="_rXiQwHSvEeqfKN4EtrYNdg" path="" type="PROCESS"/>
   <deletedItems id="_uIOPsHSvEeqfKN4EtrYNdg" path="" type="PROCESS"/>
