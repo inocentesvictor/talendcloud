@@ -37,6 +37,7 @@
     <module>jobs/process/thresholdviolationalert_1586765274578_0.1</module>
     <module>jobs/process/api_0.1</module>
     <module>jobs/process_mr/Spark/sample_spark_job_0.1</module>
+    <module>jobs/process_mr/Spark/sample_mapreduce_job_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
